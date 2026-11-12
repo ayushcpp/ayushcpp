@@ -58,7 +58,7 @@
 
 <h3><code>ayush@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year" />
+<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year, refreshed daily" />
 
 <br><br>
 
@@ -70,6 +70,6 @@
 
 <br><br>
 
-<sub>Portrait, card and heatmap are hand-rolled SVGs in this repo.</sub>
+<sub>Portrait, card and heatmap are hand-rolled SVGs in this repo. A GitHub Action redraws the heatmap every day.</sub>
 
 </div>
