@@ -1,0 +1,4 @@
+# Only for regenerating the ASCII portrait locally (scripts/make_ascii_svg.py).
+# The daily GitHub Action needs nothing beyond the Python standard library.
+pillow>=10
+numpy>=1.26

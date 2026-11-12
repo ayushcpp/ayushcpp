@@ -1,0 +1,11 @@
+# Source photos stay local: only the ASCII render is published.
+*.jpg
+*.jpeg
+*.png
+*.heic
+*.webp
+
+# Static preview frames (STATIC=1 output)
+assets/*.static.svg
+
+__pycache__/

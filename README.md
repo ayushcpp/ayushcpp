@@ -1,11 +1,73 @@
-<h1 align="center">Hi 👋, I'm Ayush</h1>
-<h3 align="center">A AI ML developer from India</h3>
+<div align="center">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ayush gairola" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ayush gairola" height="30" width="40" /></a>
-<a href="https://instagram.com/_ayush.js" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="_ayush.js" height="30" width="40" /></a>
-</p>
+<h3><code>ayush@github ~ $ whoami</code></h3>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+<table>
+  <tr>
+    <td valign="top"><img src="./assets/ascii-portrait.svg" width="370" alt="ASCII portrait of Ayush" /></td>
+    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Ayush Gairola: ML engineer in the making, student at Graphic Era. Focus: computer vision, NLP and LLM apps. Python, C++, JavaScript, TypeScript." /></td>
+  </tr>
+</table>
+
+<br>
+
+<h3><code>ayush@github ~ $ ls ~/projects --featured</code></h3>
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/Book-Recommender-System">Book Recommender System</a></h4>
+      Finds books by meaning, not keywords: <code>all-MiniLM-L6-v2</code> embeddings of ~5,200 descriptions in ChromaDB, with category filters and ranking by emotional tone, served through Gradio.
+      <br><br><sub><code>python</code> <code>langchain</code> <code>chromadb</code> <code>gradio</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/sticker-guess">Sticker Guess</a> · <a href="https://sticker-guess.vercel.app">live ↗</a></h4>
+      A prank meme game that runs in the browser: get through the joke pages, then make faces and hand gestures at your webcam to unlock meme stickers.
+      <br><br><sub><code>javascript</code> <code>mediapipe</code> <code>vercel</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/Fruit-Ninja-Game-with-Computer-Vision-EASY-ONE_-">Fruit Ninja, Hand-Tracked</a></h4>
+      Play Fruit Ninja with your index finger: webcam hand tracking drives the system mouse, and raising one finger slices.
+      <br><br><sub><code>python</code> <code>opencv</code> <code>mediapipe</code> <code>cvzone</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/Sun-and-Moon">Sun &amp; Moon</a></h4>
+      A 52-second animated storybook that plays live in the browser: voiced, subtitled dialogue between the Sun and the Moon, rendered in WebGL.
+      <br><br><sub><code>typescript</code> <code>three.js</code> <code>vite</code></sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/Movie-Recommender-System">Movie Recommender System</a></h4>
+      Content-based recommendations over the TMDB 5000 dataset using cosine similarity, with a Streamlit front end.
+      <br><br><sub><code>python</code> <code>scikit-learn</code> <code>nltk</code> <code>streamlit</code></sub>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/ayushcpp/Fingers-Counter">Fingers Counter</a></h4>
+      Counts raised fingers live from the webcam, for one or both hands (up to 10), from MediaPipe's 21 hand landmarks.
+      <br><br><sub><code>python</code> <code>opencv</code> <code>mediapipe</code></sub>
+    </td>
+  </tr>
+</table>
+
+<sub>also: <a href="https://github.com/ayushcpp/HandTracking">HandTracking module</a> · <a href="https://github.com/ayushcpp/Volume-Gesture-Control-with-HAND">gesture volume control</a> · <a href="https://github.com/ayushcpp/AI-Assistant-">voice assistant (FastRTC)</a> · <a href="https://github.com/ayushcpp/DSA">DSA in C++</a></sub>
+
+<br><br>
+
+<h3><code>ayush@github ~ $ ./contributions.sh</code></h3>
+
+<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year, refreshed daily" />
+
+<br><br>
+
+<h3><code>ayush@github ~ $ cat contact.txt</code></h3>
+
+<a href="https://instagram.com/_ayush.js"><code>instagram/_ayush.js</code></a>
+
+<br><br>
+
+<sub>Portrait, card and heatmap are hand-rolled SVGs in this repo. A GitHub Action redraws the heatmap every day.</sub>
+
+</div>

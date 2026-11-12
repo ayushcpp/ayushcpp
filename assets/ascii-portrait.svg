@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 370 460" width="370" height="460" role="img" aria-labelledby="t" xml:space="preserve">
+  <title id="t">ASCII portrait of Ayush</title>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace; }
+    .title { font-size: 11.5px; fill: #8b949e; }
+    .art text { font-size: 7.40px; fill: #c9d1d9; white-space: pre; }
+    .cover { fill: #0d1117; transform-box: fill-box; transform-origin: right center;
+             animation: wipe 0.38s linear both; }
+    .cur { fill: #3fb950; opacity: 0; animation: cur 0.38s linear both; }
+    @keyframes wipe { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+    @keyframes cur {
+      0%   { opacity: 0; transform: translateX(0); }
+      1%   { opacity: 1; }
+      99%  { opacity: 1; transform: translateX(333.98px); }
+      100% { opacity: 0; transform: translateX(333.98px); }
+    }
+  </style>
+  <rect x="0.5" y="0.5" width="369" height="459" rx="10" fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 30 H369.5" stroke="#30363d"/>
+  <circle cx="18" cy="15" r="5" fill="#ff5f56"/>
+  <circle cx="34" cy="15" r="5" fill="#ffbd2e"/>
+  <circle cx="50" cy="15" r="5" fill="#27c93f"/>
+  <text x="185.0" y="19.5" text-anchor="middle" class="title">~/portrait.txt</text>
+  <g class="art">
+    <text x="16" y="56.32" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                                  Ii&lt;&quot;                                              </text>
+    <rect class="cover" x="15" y="49.45" width="340.00" height="9.25" style="animation-delay:0.295s"/>
+    <rect class="cur" x="16" y="50.65" width="4.02" height="6.85" style="animation-delay:0.295s"/>
+    <text x="16" y="64.37" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                               &quot;v){uQwamXcvj{:  !l(-                                </text>
+    <rect class="cover" x="15" y="57.50" width="340.00" height="9.25" style="animation-delay:0.340s"/>
+    <rect class="cur" x="16" y="58.70" width="4.02" height="6.85" style="animation-delay:0.340s"/>
+    <text x="16" y="72.42" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                            .&quot;raCdWmp*##&amp;oopoB*za8ML_                               </text>
+    <rect class="cover" x="15" y="65.54" width="340.00" height="9.25" style="animation-delay:0.385s"/>
+    <rect class="cur" x="16" y="66.74" width="4.02" height="6.85" style="animation-delay:0.385s"/>
+    <text x="16" y="80.47" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                           ~zZOMB88%&amp;Wo#WaMW%&amp;%&amp;W&amp;#&amp;aCn}; +:                        </text>
+    <rect class="cover" x="15" y="73.59" width="340.00" height="9.25" style="animation-delay:0.430s"/>
+    <rect class="cur" x="16" y="74.79" width="4.02" height="6.85" style="animation-delay:0.430s"/>
+    <text x="16" y="88.52" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                  :     ?jC88&amp;MW88*obkk***aaM##**88%8W#MhCrX                        </text>
+    <rect class="cover" x="15" y="81.64" width="340.00" height="9.25" style="animation-delay:0.475s"/>
+    <rect class="cur" x="16" y="82.84" width="4.02" height="6.85" style="animation-delay:0.475s"/>
+    <text x="16" y="96.56" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                  -&gt;  .ZB8BB%%%&amp;%888&amp;o&amp;%WW##MMM&amp;&amp;MW&amp;W*oW&amp;*kvn-                      </text>
+    <rect class="cover" x="15" y="89.69" width="340.00" height="9.25" style="animation-delay:0.520s"/>
+    <rect class="cur" x="16" y="90.89" width="4.02" height="6.85" style="animation-delay:0.520s"/>
+    <text x="16" y="104.61" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                   ~p*8%8BBB@BB@B8&amp;B%%BB%BB@BBB&amp;&amp;%BB8WWMMW%WMab{                    </text>
+    <rect class="cover" x="15" y="97.73" width="340.00" height="9.25" style="animation-delay:0.565s"/>
+    <rect class="cur" x="16" y="98.93" width="4.02" height="6.85" style="animation-delay:0.565s"/>
+    <text x="16" y="112.66" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                {xL&amp;WoWW%8%%@@@@B8B@@@BBB%8B%B@B8BBB8W*ho#WohhqM!                   </text>
+    <rect class="cover" x="15" y="105.78" width="340.00" height="9.25" style="animation-delay:0.610s"/>
+    <rect class="cur" x="16" y="106.98" width="4.02" height="6.85" style="animation-delay:0.610s"/>
+    <text x="16" y="120.71" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">               |#M*8&amp;M*#&amp;%88B%BB%%%B%8@@B%W8%%@8&amp;%B&amp;MWMWoo#&amp;W#Wd                    </text>
+    <rect class="cover" x="15" y="113.83" width="340.00" height="9.25" style="animation-delay:0.655s"/>
+    <rect class="cur" x="16" y="115.03" width="4.02" height="6.85" style="animation-delay:0.655s"/>
+    <text x="16" y="128.75" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">              jL&amp;888W&amp;&amp;8B&amp;M&amp;###88&amp;8obM&amp;&amp;#WB8@MB@@8&amp;%8W8W88Woo##k{                   </text>
+    <rect class="cover" x="15" y="121.88" width="340.00" height="9.25" style="animation-delay:0.700s"/>
+    <rect class="cur" x="16" y="123.08" width="4.02" height="6.85" style="animation-delay:0.700s"/>
+    <text x="16" y="136.80" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">              bW8%%%&amp;B8B%8%88*o%%#oM88#&amp;M8&amp;MB#&amp;B%88#*%%%&amp;&amp;##WW#o*f&lt;                 </text>
+    <rect class="cover" x="15" y="129.92" width="340.00" height="9.25" style="animation-delay:0.745s"/>
+    <rect class="cur" x="16" y="131.12" width="4.02" height="6.85" style="animation-delay:0.745s"/>
+    <text x="16" y="144.85" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             |M&amp;%@%8%&amp;8B8W&amp;Mo*%8*&amp;MWWM#*MMo*8WM*#MaaMW%8&amp;#***M#M#*dC                </text>
+    <rect class="cover" x="15" y="137.97" width="340.00" height="9.25" style="animation-delay:0.790s"/>
+    <rect class="cur" x="16" y="139.17" width="4.02" height="6.85" style="animation-delay:0.790s"/>
+    <text x="16" y="152.90" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             u8&amp;88&amp;88M&amp;&amp;W%%M8o@&amp;W888BBB8BWW8%M#**M&amp;&amp;BBB%M%M#M#ah*&amp;#ai               </text>
+    <rect class="cover" x="15" y="146.02" width="340.00" height="9.25" style="animation-delay:0.835s"/>
+    <rect class="cur" x="16" y="147.22" width="4.02" height="6.85" style="animation-delay:0.835s"/>
+    <text x="16" y="160.94" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             p&amp;W&amp;WW&amp;%&amp;8&amp;&amp;M*88B@@B@B8%@$@B&amp;&amp;%8BB%%&amp;88B8%@BB8&amp;&amp;M#MM&amp;8-                </text>
+    <rect class="cover" x="15" y="154.07" width="340.00" height="9.25" style="animation-delay:0.880s"/>
+    <rect class="cur" x="16" y="155.27" width="4.02" height="6.85" style="animation-delay:0.880s"/>
+    <text x="16" y="168.99" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             Z%8%%BMW%@%MW8&amp;%B#@@&amp;oo&amp;8WWW&amp;&amp;BBWB8W&amp;W&amp;&amp;W88&amp;&amp;WM#WW#&amp;bZ                 </text>
+    <rect class="cover" x="15" y="162.11" width="340.00" height="9.25" style="animation-delay:0.925s"/>
+    <rect class="cur" x="16" y="163.31" width="4.02" height="6.85" style="animation-delay:0.925s"/>
+    <text x="16" y="177.04" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             O%B%B@&amp;W&amp;%B%8B@B&amp;**&amp;%aOCqwdk8#dwmO0pdao#kbqqbM&amp;MW&amp;&amp;oZ                  </text>
+    <rect class="cover" x="15" y="170.16" width="340.00" height="9.25" style="animation-delay:0.970s"/>
+    <rect class="cur" x="16" y="171.36" width="4.02" height="6.85" style="animation-delay:0.970s"/>
+    <text x="16" y="185.09" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">              o%@%$B%88WWodmpp*a*8MdQYmp8Mxfzk1|YzcOv/fvQO#8M8&amp;W*v                  </text>
+    <rect class="cover" x="15" y="178.21" width="340.00" height="9.25" style="animation-delay:1.015s"/>
+    <rect class="cur" x="16" y="179.41" width="4.02" height="6.85" style="animation-delay:1.015s"/>
+    <text x="16" y="193.13" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">             .)*BB@%8%8bLcuuuYCJvj{[{/xnYbdwC1+-{[[f(}{1(JM&amp;W8%W&amp;-                  </text>
+    <rect class="cover" x="15" y="186.26" width="340.00" height="9.25" style="animation-delay:1.060s"/>
+    <rect class="cur" x="16" y="187.46" width="4.02" height="6.85" style="animation-delay:1.060s"/>
+    <text x="16" y="201.18" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">              [p8BB@B8bUcnjtt|)}]_+~~&gt;~~+&lt;&gt;iI!li&lt;~+-{?[{11#MaW8&amp;d}                  </text>
+    <rect class="cover" x="15" y="194.30" width="340.00" height="9.25" style="animation-delay:1.105s"/>
+    <rect class="cur" x="16" y="195.50" width="4.02" height="6.85" style="animation-delay:1.105s"/>
+    <text x="16" y="209.23" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                U&amp;8&amp;%Bmuuj({{}]?[-_~i;l;:;II;Ii~+-??-&lt;_]}}Q8%#Qvt:                  </text>
+    <rect class="cover" x="15" y="202.35" width="340.00" height="9.25" style="animation-delay:1.150s"/>
+    <rect class="cur" x="16" y="203.55" width="4.02" height="6.85" style="animation-delay:1.150s"/>
+    <text x="16" y="217.28" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                ^wd8B#nnQmmdko#kp0v/]?+&gt;li&gt;-{fn0dbkdqwCY/[188j{&gt;                    </text>
+    <rect class="cover" x="15" y="210.40" width="340.00" height="9.25" style="animation-delay:1.195s"/>
+    <rect class="cur" x="16" y="211.60" width="4.02" height="6.85" style="animation-delay:1.195s"/>
+    <text x="16" y="225.32" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                 JJMB0jrnxz0Cd#kMhbdwQr]~~{uOwbmWWLQrUj[[-~#d/-                     </text>
+    <rect class="cover" x="15" y="218.45" width="340.00" height="9.25" style="animation-delay:1.240s"/>
+    <rect class="cur" x="16" y="219.65" width="4.02" height="6.85" style="animation-delay:1.240s"/>
+    <text x="16" y="233.37" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                 !rZ&amp;f/(|vQY{zhhj{CJC0v{~!-j{ju{zad}_jt}~+ioQ+!                     </text>
+    <rect class="cover" x="15" y="226.50" width="340.00" height="9.25" style="animation-delay:1.285s"/>
+    <rect class="cur" x="16" y="227.70" width="4.02" height="6.85" style="animation-delay:1.285s"/>
+    <text x="16" y="241.42" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                  tcb(({[[)rjttt/|||zCz]I:+}?-1tf||){-&gt;&gt;&gt;~_v]&lt;                      </text>
+    <rect class="cover" x="15" y="234.54" width="340.00" height="9.25" style="animation-delay:1.330s"/>
+    <rect class="cur" x="16" y="235.74" width="4.02" height="6.85" style="animation-delay:1.330s"/>
+    <text x="16" y="249.47" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                  l/c|)[_&lt;&gt;~++~+-?[(rrj}!&quot;&gt;+~&gt;iii!lI;;;I!&lt;-]&gt;                       </text>
+    <rect class="cover" x="15" y="242.59" width="340.00" height="9.25" style="animation-delay:1.375s"/>
+    <rect class="cur" x="16" y="243.79" width="4.02" height="6.85" style="animation-delay:1.375s"/>
+    <text x="16" y="257.52" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                   (nr(}-&lt;!lIli&gt;&lt;~+}|((1&gt;,i&lt;&lt;&gt;;:;::&quot;&quot;,:Ii~?+l                       </text>
+    <rect class="cover" x="15" y="250.64" width="340.00" height="9.25" style="animation-delay:1.420s"/>
+    <rect class="cur" x="16" y="251.84" width="4.02" height="6.85" style="animation-delay:1.420s"/>
+    <text x="16" y="265.56" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                    1ut)[-~&gt;i!!!ii~}/ft(~,!~+~l:,&quot;&quot;,:I!&gt;~--&quot;                        </text>
+    <rect class="cover" x="15" y="258.69" width="340.00" height="9.25" style="animation-delay:1.465s"/>
+    <rect class="cur" x="16" y="259.89" width="4.02" height="6.85" style="animation-delay:1.465s"/>
+    <text x="16" y="273.61" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                     ,u/)[-+&gt;&gt;!ll!+fcx/}&lt;,;&lt;_}&lt;I:,,:;!i~_{                          </text>
+    <rect class="cover" x="15" y="266.73" width="340.00" height="9.25" style="animation-delay:1.510s"/>
+    <rect class="cur" x="16" y="267.93" width="4.02" height="6.85" style="animation-delay:1.510s"/>
+    <text x="16" y="281.66" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                      jj/([-+&gt;i!!~tz//[+!&quot;^!&lt;-&lt;&gt;!I;I!i&lt;_]+                          </text>
+    <rect class="cover" x="15" y="274.78" width="340.00" height="9.25" style="animation-delay:1.555s"/>
+    <rect class="cur" x="16" y="275.98" width="4.02" height="6.85" style="animation-delay:1.555s"/>
+    <text x="16" y="289.71" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                       cj/)[-~&lt;&gt;&lt;-(xjzr-&gt;l!+}+!i&gt;iii&gt;&lt;+?{                           </text>
+    <rect class="cover" x="15" y="282.83" width="340.00" height="9.25" style="animation-delay:1.600s"/>
+    <rect class="cur" x="16" y="284.03" width="4.02" height="6.85" style="animation-delay:1.600s"/>
+    <text x="16" y="297.75" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                       Icjt)}?_+_-[)jcuft{]{_&lt;&gt;&gt;&gt;&lt;&lt;&lt;~_?}                            </text>
+    <rect class="cover" x="15" y="290.88" width="340.00" height="9.25" style="animation-delay:1.645s"/>
+    <rect class="cur" x="16" y="292.08" width="4.02" height="6.85" style="animation-delay:1.645s"/>
+    <text x="16" y="305.80" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                        ,zrf({{}}{{(|/]_([+?__+--_+_?}[                             </text>
+    <rect class="cover" x="15" y="298.92" width="340.00" height="9.25" style="animation-delay:1.690s"/>
+    <rect class="cur" x="16" y="300.12" width="4.02" height="6.85" style="animation-delay:1.690s"/>
+    <text x="16" y="313.85" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                        &lt;YUvr|||/nYczcut/frxjtrr1]-}){m}                            </text>
+    <rect class="cover" x="15" y="306.97" width="340.00" height="9.25" style="animation-delay:1.735s"/>
+    <rect class="cur" x="16" y="308.17" width="4.02" height="6.85" style="animation-delay:1.735s"/>
+    <text x="16" y="321.90" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                      -wWBLzYcxt()xznxrnff/t|1]]}1)|{[BZX^                          </text>
+    <rect class="cover" x="15" y="315.02" width="340.00" height="9.25" style="animation-delay:1.780s"/>
+    <rect class="cur" x="16" y="316.22" width="4.02" height="6.85" style="animation-delay:1.780s"/>
+    <text x="16" y="329.94" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                    &lt;QdaB$0ucYcjtttjnuxxxjf(}[}}}/1-??%#Yc:                         </text>
+    <rect class="cover" x="15" y="323.07" width="340.00" height="9.25" style="animation-delay:1.825s"/>
+    <rect class="cur" x="16" y="324.27" width="4.02" height="6.85" style="animation-delay:1.825s"/>
+    <text x="16" y="337.99" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">                   |w0mh#%0unuzzt|()1{}}[??-???}1?__-?*MXUCr?!                      </text>
+    <rect class="cover" x="15" y="331.11" width="340.00" height="9.25" style="animation-delay:1.870s"/>
+    <rect class="cur" x="16" y="332.31" width="4.02" height="6.85" style="animation-delay:1.870s"/>
+    <text x="16" y="346.04" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">              -xZ*wOmOObB#Lnfffrcn/)[]__-+++-}1[+~&lt;~_]d#zzLJU*8kLx]^                </text>
+    <rect class="cover" x="15" y="339.16" width="340.00" height="9.25" style="animation-delay:1.915s"/>
+    <rect class="cur" x="16" y="340.36" width="4.02" height="6.85" style="animation-delay:1.915s"/>
+    <text x="16" y="354.09" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">         ~jLa%BB%0OqqmL0WoLx/)))/ruuxrf/(||()?_~&gt;&gt;&gt;~_-bmXUYQCJ%%%88%MwX|&gt;           </text>
+    <rect class="cover" x="15" y="347.21" width="340.00" height="9.25" style="animation-delay:1.960s"/>
+    <rect class="cur" x="16" y="348.41" width="4.02" height="6.85" style="animation-delay:1.960s"/>
+    <text x="16" y="362.13" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">     -uq8%8%%BBBbLwqdqmLwMQx/){{})ft|(({[]__++&gt;iii&gt;&lt;&lt;/hXYQJYLCd%%%%%%888%8bJ/&gt;      </text>
+    <rect class="cover" x="15" y="355.26" width="340.00" height="9.25" style="animation-delay:2.005s"/>
+    <rect class="cur" x="16" y="356.46" width="4.02" height="6.85" style="animation-delay:2.005s"/>
+    <text x="16" y="370.18" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs"> [cp8888888%%%%@QQmwdbqZJpZn/|{[][1({[-+~~&lt;&lt;&lt;&gt;&gt;ii&gt;&gt;i}aQzQQUCYQLB%%88888888888%%dX)l </text>
+    <rect class="cover" x="15" y="363.30" width="340.00" height="9.25" style="animation-delay:2.050s"/>
+    <rect class="cur" x="16" y="364.50" width="4.02" height="6.85" style="animation-delay:2.050s"/>
+    <text x="16" y="378.23" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">888&amp;8888&amp;88%%%B@UQOqqbbqLJJv|(({]-?{){?_~&lt;~~&lt;&gt;i&lt;&lt;&gt;&gt;)dZzzLYJUJJXB%8%%%88888888888888&amp;</text>
+    <rect class="cover" x="15" y="371.35" width="340.00" height="9.25" style="animation-delay:2.095s"/>
+    <rect class="cur" x="16" y="372.55" width="4.02" height="6.85" style="animation-delay:2.095s"/>
+    <text x="16" y="386.28" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">888&amp;88&amp;&amp;888%%%@BcYCmmpdqZJYv(}(/)-__?[]-_+~~&gt;&gt;&lt;++?xpZcXJJYUUCXzBB88%%%&amp;88888%8888888</text>
+    <rect class="cover" x="15" y="379.40" width="340.00" height="9.25" style="animation-delay:2.140s"/>
+    <rect class="cur" x="16" y="380.60" width="4.02" height="6.85" style="animation-delay:2.140s"/>
+    <text x="16" y="394.32" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">88&amp;&amp;&amp;&amp;&amp;&amp;88888%@@zLCUQwppZCUU/~-//{_&lt;+---_++~&lt;&gt;_{|uOmUcXUXQJYzXJ%B8&amp;88B8888888888%8&amp;8</text>
+    <rect class="cover" x="15" y="387.45" width="340.00" height="9.25" style="animation-delay:2.185s"/>
+    <rect class="cur" x="16" y="388.65" width="4.02" height="6.85" style="animation-delay:2.185s"/>
+    <text x="16" y="402.37" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">8&amp;&amp;&amp;&amp;88888888%B@ZXCCJQZOQmCXvJI&lt;]1-!I!i&gt;&lt;+++&lt;?(/j0QXnzYczvzXzzm%%&amp;&amp;&amp;8%%8888888%8%&amp;&amp;8</text>
+    <rect class="cover" x="15" y="395.50" width="340.00" height="9.25" style="animation-delay:2.230s"/>
+    <rect class="cur" x="16" y="396.70" width="4.02" height="6.85" style="animation-delay:2.230s"/>
+    <text x="16" y="410.42" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">88&amp;&amp;&amp;88888888%B%&amp;XXULLJJOpoWMaJ&lt;+_&lt;l:::;i+?]]}u0a#MWdZXuvuuzzv#B88&amp;&amp;8%%888%888B%8&amp;88</text>
+    <rect class="cover" x="15" y="403.54" width="340.00" height="9.25" style="animation-delay:2.275s"/>
+    <rect class="cur" x="16" y="404.74" width="4.02" height="6.85" style="animation-delay:2.275s"/>
+    <text x="16" y="418.47" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">88&amp;8888888888%%8@bZObo%@@$$$$B8X&gt;iI;:;I!~?{))w88&amp;8B@B@$@&amp;oho*a%%88&amp;&amp;88%%88%88%BB8&amp;8%</text>
+    <rect class="cover" x="15" y="411.59" width="340.00" height="9.25" style="animation-delay:2.320s"/>
+    <rect class="cur" x="16" y="412.79" width="4.02" height="6.85" style="animation-delay:2.320s"/>
+    <text x="16" y="426.52" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">88888&amp;8888888%%88%BBBBBBB@@@@%@%1:;:;I!&gt;-{/j0%8%88@B%B@B888%%%%%88&amp;&amp;888%88%88%B@88%%</text>
+    <rect class="cover" x="15" y="419.64" width="340.00" height="9.25" style="animation-delay:2.365s"/>
+    <rect class="cur" x="16" y="420.84" width="4.02" height="6.85" style="animation-delay:2.365s"/>
+    <text x="16" y="434.56" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">88&amp;88&amp;8888888B8&amp;&amp;8888%88%BB@B@$@%0!:;I!&lt;](jJ&amp;888%@B8%BB8&amp;&amp;88888888&amp;&amp;&amp;88%%%%888B@%8%B</text>
+    <rect class="cover" x="15" y="427.69" width="340.00" height="9.25" style="animation-delay:2.410s"/>
+    <rect class="cur" x="16" y="428.89" width="4.02" height="6.85" style="animation-delay:2.410s"/>
+    <text x="16" y="442.61" xml:space="preserve" textLength="338.00" lengthAdjust="spacingAndGlyphs">888%88888888%%&amp;&amp;8&amp;&amp;8&amp;8888%%BBBB@@B%C&lt;I&gt;-)fZ%8B88@%&amp;8%B8&amp;&amp;&amp;8888&amp;8888&amp;&amp;&amp;&amp;88%%888B@%8B@</text>
+    <rect class="cover" x="15" y="435.73" width="340.00" height="9.25" style="animation-delay:2.455s"/>
+    <rect class="cur" x="16" y="436.93" width="4.02" height="6.85" style="animation-delay:2.455s"/>
+  </g>
+</svg>
