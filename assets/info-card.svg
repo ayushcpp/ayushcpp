@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 460" width="490" height="460" role="img" aria-labelledby="t d">
   <title id="t">neofetch: ayush@github</title>
-  <desc id="d">Name: Ayush Gairola; Role: ML engineer in the making; Study: Student @ Graphic Era, India; Focus: Computer Vision · NLP · LLM apps; Now: semantic search with embeddings + vector DBs; Langs: Python · C++ · JavaScript · TypeScript; ML: OpenCV · MediaPipe · scikit-learn · pandas; LangChain · ChromaDB · sentence-transformers; Apps: Gradio · Streamlit · three.js · Vite · Vercel; Grind: DSA in C++ · 50+ LeetCode / GfG problems; OS: Fedora Linux · zsh · kitty</desc>
+  <desc id="d">Name: Ayush Gairola; Role: ML engineer in the making; Focus: Computer Vision · NLP · LLM apps; ML: OpenCV · MediaPipe · scikit-learn · pandas; LangChain · ChromaDB · sentence-transformers; Builds: CV toys · recommenders · browser games; Grind: DSA in C++ · 50+ LeetCode / GfG problems; OS: Fedora KDE · Arch Hyprland; Shell: zsh · kitty; Uptime: on GitHub since Jul 2025; Locale: en_IN · India</desc>
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono", "Liberation Mono", monospace; }
     .title { font-size: 11.5px; fill: #8b949e; }
@@ -9,8 +9,6 @@
     .kv { font-size: 12.5px; }
     .ln { animation: in .5s cubic-bezier(.2,.7,.3,1) both; }
     @keyframes in { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
-    .blink { animation: blink 1.1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }
   </style>
   <rect x="0.5" y="0.5" width="489" height="459" rx="10" fill="#0d1117" stroke="#30363d"/>
   <path d="M0.5 30 H489.5" stroke="#30363d"/>
@@ -24,16 +22,16 @@
     <g class="ln" style="animation-delay:0.57s"><path d="M24 103 h101" stroke="#8b949e" stroke-width="1.2" stroke-dasharray="5 3"/></g>
     <g class="ln" style="animation-delay:0.68s"><text x="24" y="126" class="kv"><tspan fill="#7ee787" font-weight="700">Name</tspan></text><text x="86" y="126" class="kv" fill="#c9d1d9">Ayush Gairola</text></g>
     <g class="ln" style="animation-delay:0.79s"><text x="24" y="151" class="kv"><tspan fill="#79c0ff" font-weight="700">Role</tspan></text><text x="86" y="151" class="kv" fill="#c9d1d9">ML engineer in the making</text></g>
-    <g class="ln" style="animation-delay:0.90s"><text x="24" y="176" class="kv"><tspan fill="#d2a8ff" font-weight="700">Study</tspan></text><text x="86" y="176" class="kv" fill="#c9d1d9">Student @ Graphic Era, India</text></g>
-    <g class="ln" style="animation-delay:1.01s"><text x="24" y="201" class="kv"><tspan fill="#ffa657" font-weight="700">Focus</tspan></text><text x="86" y="201" class="kv" fill="#c9d1d9">Computer Vision · NLP · LLM apps</text></g>
-    <g class="ln" style="animation-delay:1.12s"><text x="24" y="226" class="kv"><tspan fill="#ff7b72" font-weight="700">Now</tspan></text><text x="86" y="226" class="kv" fill="#c9d1d9">semantic search with embeddings + vector DBs</text></g>
-    <g class="ln" style="animation-delay:1.23s"><text x="24" y="251" class="kv"><tspan fill="#a5d6ff" font-weight="700">Langs</tspan></text><text x="86" y="251" class="kv" fill="#c9d1d9">Python · C++ · JavaScript · TypeScript</text></g>
-    <g class="ln" style="animation-delay:1.34s"><text x="24" y="276" class="kv"><tspan fill="#7ee787" font-weight="700">ML</tspan></text><text x="86" y="276" class="kv" fill="#c9d1d9">OpenCV · MediaPipe · scikit-learn · pandas</text></g>
-    <g class="ln" style="animation-delay:1.45s"><text x="24" y="301" class="kv"></text><text x="86" y="301" class="kv" fill="#c9d1d9">LangChain · ChromaDB · sentence-transformers</text></g>
-    <g class="ln" style="animation-delay:1.56s"><text x="24" y="326" class="kv"><tspan fill="#79c0ff" font-weight="700">Apps</tspan></text><text x="86" y="326" class="kv" fill="#c9d1d9">Gradio · Streamlit · three.js · Vite · Vercel</text></g>
-    <g class="ln" style="animation-delay:1.67s"><text x="24" y="351" class="kv"><tspan fill="#d2a8ff" font-weight="700">Grind</tspan></text><text x="86" y="351" class="kv" fill="#c9d1d9">DSA in C++ · 50+ LeetCode / GfG problems</text></g>
-    <g class="ln" style="animation-delay:1.78s"><text x="24" y="376" class="kv"><tspan fill="#ffa657" font-weight="700">OS</tspan></text><text x="86" y="376" class="kv" fill="#c9d1d9">Fedora Linux · zsh · kitty</text></g>
+    <g class="ln" style="animation-delay:0.90s"><text x="24" y="176" class="kv"><tspan fill="#d2a8ff" font-weight="700">Focus</tspan></text><text x="86" y="176" class="kv" fill="#c9d1d9">Computer Vision · NLP · LLM apps</text></g>
+    <g class="ln" style="animation-delay:1.01s"><text x="24" y="201" class="kv"><tspan fill="#ffa657" font-weight="700">ML</tspan></text><text x="86" y="201" class="kv" fill="#c9d1d9">OpenCV · MediaPipe · scikit-learn · pandas</text></g>
+    <g class="ln" style="animation-delay:1.12s"><text x="24" y="226" class="kv"></text><text x="86" y="226" class="kv" fill="#c9d1d9">LangChain · ChromaDB · sentence-transformers</text></g>
+    <g class="ln" style="animation-delay:1.23s"><text x="24" y="251" class="kv"><tspan fill="#ff7b72" font-weight="700">Builds</tspan></text><text x="86" y="251" class="kv" fill="#c9d1d9">CV toys · recommenders · browser games</text></g>
+    <g class="ln" style="animation-delay:1.34s"><text x="24" y="276" class="kv"><tspan fill="#a5d6ff" font-weight="700">Grind</tspan></text><text x="86" y="276" class="kv" fill="#c9d1d9">DSA in C++ · 50+ LeetCode / GfG problems</text></g>
+    <g class="ln" style="animation-delay:1.45s"><text x="24" y="301" class="kv"><tspan fill="#7ee787" font-weight="700">OS</tspan></text><text x="86" y="301" class="kv" fill="#c9d1d9">Fedora KDE · Arch Hyprland</text></g>
+    <g class="ln" style="animation-delay:1.56s"><text x="24" y="326" class="kv"><tspan fill="#79c0ff" font-weight="700">Shell</tspan></text><text x="86" y="326" class="kv" fill="#c9d1d9">zsh · kitty</text></g>
+    <g class="ln" style="animation-delay:1.67s"><text x="24" y="351" class="kv"><tspan fill="#d2a8ff" font-weight="700">Uptime</tspan></text><text x="86" y="351" class="kv" fill="#c9d1d9">on GitHub since Jul 2025</text></g>
+    <g class="ln" style="animation-delay:1.78s"><text x="24" y="376" class="kv"><tspan fill="#ffa657" font-weight="700">Locale</tspan></text><text x="86" y="376" class="kv" fill="#c9d1d9">en_IN · India</text></g>
     <g class="ln" style="animation-delay:1.89s"><rect x="24" y="393" width="22" height="14" rx="2" fill="#484f58"/><rect x="50" y="393" width="22" height="14" rx="2" fill="#ff7b72"/><rect x="76" y="393" width="22" height="14" rx="2" fill="#7ee787"/><rect x="102" y="393" width="22" height="14" rx="2" fill="#d29922"/><rect x="128" y="393" width="22" height="14" rx="2" fill="#79c0ff"/><rect x="154" y="393" width="22" height="14" rx="2" fill="#d2a8ff"/><rect x="180" y="393" width="22" height="14" rx="2" fill="#a5d6ff"/><rect x="206" y="393" width="22" height="14" rx="2" fill="#e6edf3"/></g>
-    <g class="ln" style="animation-delay:2.00s"><text x="24" y="430" class="prompt"><tspan fill="#7ee787">ayush@github</tspan><tspan fill="#8b949e"> ~ $ </tspan></text><rect class="blink" x="142.5" y="418" width="8" height="15" fill="#3fb950"/></g>
+    <g class="ln" style="animation-delay:2.00s"><text x="24" y="430" class="prompt" xml:space="preserve"><tspan fill="#7ee787">ayush@github</tspan><tspan fill="#8b949e"> ~ $ </tspan><tspan fill="#3fb950">█</tspan></text></g>
   </g>
 </svg>

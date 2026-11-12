@@ -5,7 +5,7 @@
 <table>
   <tr>
     <td valign="top"><img src="./assets/ascii-portrait.svg" width="370" alt="ASCII portrait of Ayush" /></td>
-    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Ayush Gairola: ML engineer in the making, student at Graphic Era. Focus: computer vision, NLP and LLM apps. Python, C++, JavaScript, TypeScript." /></td>
+    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Ayush Gairola: ML engineer in the making. Focus: computer vision, NLP and LLM apps. Runs Fedora KDE and Arch Hyprland." /></td>
   </tr>
 </table>
 
@@ -58,16 +58,18 @@
 
 <h3><code>ayush@github ~ $ ./contributions.sh</code></h3>
 
-<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year, refreshed daily" />
+<img src="./assets/contrib-heatmap.svg" width="860" alt="Contribution heatmap for the last year" />
 
 <br><br>
 
 <h3><code>ayush@github ~ $ cat contact.txt</code></h3>
 
-<a href="https://instagram.com/_ayush.js"><code>instagram/_ayush.js</code></a>
+<a href="https://www.linkedin.com/in/ayush-gairola-2a5450378"><img src="./assets/icon-linkedin.svg" width="44" height="44" alt="LinkedIn" /></a>
+&nbsp;&nbsp;
+<a href="https://www.instagram.com/_ayush.js"><img src="./assets/icon-instagram.svg" width="44" height="44" alt="Instagram" /></a>
 
 <br><br>
 
-<sub>Portrait, card and heatmap are hand-rolled SVGs in this repo. A GitHub Action redraws the heatmap every day.</sub>
+<sub>Portrait, card and heatmap are hand-rolled SVGs in this repo.</sub>
 
 </div>

@@ -28,15 +28,15 @@ USER, HOST = "ayush", "github"
 INFO = [
     ("Name", "Ayush Gairola"),
     ("Role", "ML engineer in the making"),
-    ("Study", "Student @ Graphic Era, India"),
     ("Focus", "Computer Vision · NLP · LLM apps"),
-    ("Now", "semantic search with embeddings + vector DBs"),
-    ("Langs", "Python · C++ · JavaScript · TypeScript"),
     ("ML", "OpenCV · MediaPipe · scikit-learn · pandas"),
     ("", "LangChain · ChromaDB · sentence-transformers"),
-    ("Apps", "Gradio · Streamlit · three.js · Vite · Vercel"),
+    ("Builds", "CV toys · recommenders · browser games"),
     ("Grind", "DSA in C++ · 50+ LeetCode / GfG problems"),
-    ("OS", "Fedora Linux · zsh · kitty"),
+    ("OS", "Fedora KDE · Arch Hyprland"),
+    ("Shell", "zsh · kitty"),
+    ("Uptime", "on GitHub since Jul 2025"),
+    ("Locale", "en_IN · India"),
 ]
 
 PALETTE = ["#484f58", "#ff7b72", "#7ee787", "#d29922", "#79c0ff", "#d2a8ff", "#a5d6ff", "#e6edf3"]
@@ -92,16 +92,14 @@ def build_svg(static: bool) -> str:
     )
     line(blocks)
     y += lh
-    cursor_cls = "" if static else ' class="blink"'
-    line(f'<text x="{x}" y="{y}" class="prompt"><tspan fill="#7ee787">{USER}@{HOST}</tspan>'
-         f'<tspan fill="{MUTED}"> ~ $ </tspan></text>'
-         f'<rect{cursor_cls} x="{x + 15*7.9:.1f}" y="{y-12}" width="8" height="15" fill="#3fb950"/>')
+    # The cursor is a glyph in the same <text>, so it always sits right after "$ "
+    # whatever monospace font the viewer has. Solid, no blinking.
+    line(f'<text x="{x}" y="{y}" class="prompt" xml:space="preserve"><tspan fill="#7ee787">{USER}@{HOST}</tspan>'
+         f'<tspan fill="{MUTED}"> ~ $ </tspan><tspan fill="#3fb950">\u2588</tspan></text>')
 
     anim_css = "" if static else """
     .ln { animation: in .5s cubic-bezier(.2,.7,.3,1) both; }
-    @keyframes in { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
-    .blink { animation: blink 1.1s steps(1) infinite; }
-    @keyframes blink { 50% { opacity: 0; } }"""
+    @keyframes in { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }"""
 
     body = "\n    ".join(lines)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" aria-labelledby="t d">
