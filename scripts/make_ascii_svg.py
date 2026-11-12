@@ -8,12 +8,15 @@ Output: assets/ascii-portrait.svg. Each row "types" in left to right behind a
 block cursor, rows staggered top to bottom; it plays once and then holds.
 Set STATIC=1 to emit the finished frame without animation (for previews).
 
-How it stays legible at 370 px wide:
+How it stays legible at 420 px wide:
   * the white backdrop is cut out by flood-filling from the borders, so only
     the subject is drawn;
-  * contrast is stretched over the subject's own tonal range, so skin, brows,
-    eyes and lips separate instead of all landing on the same glyph;
-  * every glyph is also shaded (6 grey levels), so tone is carried by both the
+  * tones are histogram-equalised over the subject only, so skin, brows, eyes
+    and lips spread across the glyph ramp instead of all landing on the densest
+    glyphs (the dark hair and shirt would otherwise eat most of the range);
+  * local contrast is boosted only gently and over a wide radius: a tight boost
+    turned soft shading, like the side of the nose, into hard stripes;
+  * every glyph is also shaded (12 grey levels), so tone is carried by both the
     character's density and its brightness;
   * very dark areas (hair, shirt) keep a floor so their silhouette still shows.
 
@@ -32,11 +35,11 @@ from PIL import Image, ImageFilter
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "ascii-portrait.svg"
 
-# Panel geometry (SVG user units == CSS px at the README's width="370").
-W, H = 370, 460
+# Panel geometry (SVG user units == CSS px at the README's width="420").
+W, H = 420, 460
 BAR = 30                      # title-bar height
 PAD_X, PAD_TOP, PAD_BOTTOM = 16, 10, 12
-COLS = int(os.environ.get("COLS", 100))
+COLS = int(os.environ.get("COLS", 120))
 CELL_W = (W - 2 * PAD_X) / COLS
 CELL_H = CELL_W * 2.0         # monospace cells are ~1:2
 ROWS = int((H - BAR - PAD_TOP - PAD_BOTTOM) / CELL_H)
@@ -44,18 +47,27 @@ ROWS = int((H - BAR - PAD_TOP - PAD_BOTTOM) / CELL_H)
 # Sparse -> dense, chosen so each step is visibly denser than the last.
 RAMP = os.environ.get("RAMP", " .`:-=+*ox%#&8@")
 MODE = os.environ.get("MODE", "positive")   # positive: bright = dense; negative: dark = dense
-FLOOR = float(os.environ.get("FLOOR", 0.22))  # minimum tone for subject cells
-GAMMA = float(os.environ.get("GAMMA", 1.6))   # >1 darkens midtones (features pop)
-DETAIL = float(os.environ.get("DETAIL", 1.2))  # local contrast boost
+FLOOR = float(os.environ.get("FLOOR", 0.14))  # minimum tone for subject cells
+GAMMA = float(os.environ.get("GAMMA", 1.35))   # >1 darkens midtones (features pop)
+DETAIL = float(os.environ.get("DETAIL", 0.25))  # local contrast boost
 BG_LUMA = 0.93                # brighter than this and connected to the border = backdrop
 
-SHADES = ["#4a525c", "#68717c", "#8b949e", "#b1bac4", "#d4dbe2", "#f4f7fa"]
+NSHADES = int(os.environ.get("NSHADES", 12))  # grey levels for glyph fill
+DARK, LIGHT = (0x3a, 0x41, 0x4a), (0xf6, 0xf8, 0xfa)
+SHADES = ["#%02x%02x%02x" % tuple(round(a + (b - a) * i / (NSHADES - 1)) for a, b in zip(DARK, LIGHT))
+          for i in range(NSHADES)]
+EQ = float(os.environ.get("EQ", 0.8))           # 0 = linear stretch, 1 = full histogram equalisation
+BLUR = float(os.environ.get("BLUR", 7))     # neighbourhood size for the detail boost (cells)
+USM_RADIUS = float(os.environ.get("USM_RADIUS", 2))      # pre-sharpen on the full-res photo
+USM_PERCENT = int(os.environ.get("USM_PERCENT", 80))
 PANEL = "#0d1117"
 BORDER = "#30363d"
 CURSOR = "#3fb950"
 
-# Crop box on the 700x900 source: hair to collar, at the art area's aspect (~0.84).
-CROP = (66, 112, 634, 790)
+# Crop on the 700x900 source: hair to collar, centred on the face, at the art area's aspect.
+CROP_TOP, CROP_BOTTOM, CENTER_X = 128, 742, 341
+_half = (W - 2 * PAD_X) / (ROWS * CELL_H) * (CROP_BOTTOM - CROP_TOP) / 2
+CROP = (round(CENTER_X - _half), CROP_TOP, round(CENTER_X + _half), CROP_BOTTOM)
 
 
 def load(path: str) -> tuple[np.ndarray, np.ndarray]:
@@ -75,17 +87,23 @@ def load(path: str) -> tuple[np.ndarray, np.ndarray]:
     subject = ~bg
 
     # Local detail: unsharp the full-res crop, then resample.
-    sharp = img.filter(ImageFilter.UnsharpMask(radius=4, percent=180, threshold=1))
-    tone = np.asarray(sharp.resize((COLS, ROWS), Image.Resampling.BOX), dtype=np.float32) / 255.0
+    sharp = img.filter(ImageFilter.UnsharpMask(radius=USM_RADIUS, percent=USM_PERCENT, threshold=2))
+    tone = np.asarray(sharp.resize((COLS, ROWS), Image.Resampling.LANCZOS), dtype=np.float32) / 255.0
 
     # Stretch contrast over the subject only (the white backdrop would flatten it).
     lo, hi = np.percentile(tone[subject], [3, 99])
-    tone = np.clip((tone - lo) / max(hi - lo, 1e-6), 0, 1)
+    linear = np.clip((tone - lo) / max(hi - lo, 1e-6), 0, 1)
+
+    # Histogram-equalise over the subject: the dark hair and shirt fill most of
+    # the tonal range, which otherwise squeezes all skin into the top glyphs.
+    vals = np.sort(tone[subject])
+    equalised = np.searchsorted(vals, tone, side="right") / len(vals)
+    tone = (1 - EQ) * linear + EQ * equalised
 
     # Grid-level detail boost: push each cell away from its neighbourhood mean,
     # which separates eyes, brows and lips from the skin around them.
     if DETAIL > 0:
-        blur = Image.fromarray((tone * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(2.2))
+        blur = Image.fromarray((tone * 255).astype(np.uint8)).filter(ImageFilter.GaussianBlur(BLUR))
         local = np.asarray(blur, dtype=np.float32) / 255.0
         tone = np.clip(tone + DETAIL * (tone - local), 0, 1)
     return tone, subject

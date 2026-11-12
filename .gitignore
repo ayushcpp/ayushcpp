@@ -9,3 +9,6 @@
 assets/*.static.svg
 
 __pycache__/
+
+# local render previews
+.preview/

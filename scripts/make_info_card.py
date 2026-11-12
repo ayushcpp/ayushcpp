@@ -15,7 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "assets" / "info-card.svg"
 
-W, H = 490, 460               # same height as the portrait so the table row lines up
+W, H = 440, 460               # same height as the portrait so the table row lines up
 BAR = 30
 PANEL, BORDER = "#0d1117", "#30363d"
 FG, MUTED = "#c9d1d9", "#8b949e"
@@ -32,7 +32,7 @@ INFO = [
     ("ML", "OpenCV · MediaPipe · scikit-learn · pandas"),
     ("", "LangChain · ChromaDB · sentence-transformers"),
     ("Builds", "CV toys · recommenders · browser games"),
-    ("Grind", "DSA in C++ · 50+ LeetCode / GfG problems"),
+    ("Grind", "DSA in C++ · LeetCode · GfG"),
     ("OS", "Fedora KDE · Arch Hyprland"),
     ("Shell", "zsh · kitty"),
     ("Uptime", "on GitHub since Jul 2025"),

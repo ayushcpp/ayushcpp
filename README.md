@@ -4,8 +4,8 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./assets/ascii-portrait.svg" width="370" alt="ASCII portrait of Ayush" /></td>
-    <td valign="top"><img src="./assets/info-card.svg" width="490" alt="Ayush Gairola: ML engineer in the making. Focus: computer vision, NLP and LLM apps. Runs Fedora KDE and Arch Hyprland." /></td>
+    <td valign="top"><img src="./assets/ascii-portrait.svg" width="420" alt="ASCII portrait of Ayush" /></td>
+    <td valign="top"><img src="./assets/info-card.svg" width="440" alt="Ayush Gairola: ML engineer in the making. Focus: computer vision, NLP and LLM apps. Runs Fedora KDE and Arch Hyprland." /></td>
   </tr>
 </table>
 
